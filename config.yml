@@ -1,8 +1,0 @@
-development:
-  password: shptka_1be7bc80ffbbb4bfff3d53010c7c50a1
-  theme_id: "163201843511"
-  store: add-tailwind.myshopify.com
-  directory: dist/
-  ignore_files:
-    - config/settings_data.json
-    - templates/*.json
