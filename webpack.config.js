@@ -6,7 +6,7 @@ const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 const mode = process.env.NODE_ENV === 'development' ? 'development' : 'production';
 const devtool = mode === 'development' ? 'eval-cheap-source-map' : false;
 const stats = mode === 'development' ? 'errors-warnings' : { children: false };
-const sass = require('node-sass');
+const sass = require('sass');
 
 module.exports = {
   mode: mode,
