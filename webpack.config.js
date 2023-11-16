@@ -23,7 +23,8 @@ module.exports = {
   resolve: {
     alias: {
       Styles: path.resolve(__dirname, 'src/styles/'),
-      Helpers: path.resolve(__dirname, 'src/styles/helpers/')
+      Helpers: path.resolve(__dirname, 'src/styles/helpers/'),
+      Tailwind: path.resolve(__dirname, 'node_modules/tailwindcss/')
     }
   },
   plugins: [
